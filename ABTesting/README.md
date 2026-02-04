@@ -10,8 +10,8 @@ I analyzed 90 000 player logs and identified how game progression mechanics infl
 * **Statistical Approach** Employed **Bootstrap Analysis** with 1000 iterations to simulate 7-day retention outcomes and determine statistical significance.
 
 ## Key Result
-| Metric | Gate 30 (Control) | Gate 40 (Variant) | Winner |
-| **1-Day Retention** | 44.82% | 44.23% | **Gate 30** |
+| Metric | Gate 30 (Control) | Gate 40 (Variant) | Winner |  
+| **1-Day Retention** | 44.82% | 44.23% | **Gate 30** |  
 | **7-Day Retention** | 19.02% | 18.20%| **Gate 30** |
 
 ## BootStrap Probability
