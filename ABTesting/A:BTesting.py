@@ -28,7 +28,7 @@ plt.boxplot(df['sum_gamerounds'])
 plt.title("Checking for Outliers in Game Rounds")
 plt.show()
 
-# Find the max value and remove it (it's usually 49,000+)
+# Find the max value and remove it
 df = df[df['sum_gamerounds'] < df['sum_gamerounds'].max()]
 
 # Average 1-day retention for each group
