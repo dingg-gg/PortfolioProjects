@@ -27,3 +27,27 @@ This is a self-initiated data analytics project which uses the [Online Retail II
 * **B2B Strategy:** The **Top 10 Super-Whales** drive **17.75%** of all sales. This might suggest a significant wholesale/B2B component. I recommend developing a separate **Wholesale Portal** or volume-based pricing to encourage larger bulk orders.
 * **Re-activation Campaign:** We have identified **130 "Slipping Whales"** with high historical value. Since we know their top products, the business should launch a **Personalized Email Campaign** offering a "We Miss You" discount on those specific items.
 * **Lead Conversion:** For the **"Dead Leads"** (single-purchase customers), the data suggests they are not returning on their own. The business should analyze if the cost of acquiring these customers exceeds their value and consider reallocating that budget toward the **"Upcoming"** segment.
+
+## **Inventory Analysis: Slipping Whales**
+To facilitate a data-driven **Win-Back Campaign**, I analyzed the historical purchase behavior of the **130 "Slipping Whales"**. The following items represent the highest-affinity products for this high-value segment:
+
+| **Product Description** | **Units Purchased** |
+| :--- | :--- |
+| **WHITE HANGING HEART T-LIGHT HOLDER** | **64** |
+| **STRAWBERRY CERAMIC TRINKET BOX** | **42** |
+| **PACK OF 72 RETRO SPOT CAKE CASES** | **32** |
+| **HOME BUILDING BLOCK WORD** | **32** |
+| **BAKING SET 9 PIECE RETROSPOT** | **31** |
+
+### **Strategic Application**
+Instead of a generic discount, the business should use these **top 5 products** in personalized email headers or specifically targeted at the **Slipping Whale** segment to maximize the probability of re-activation.
+
+## Data Visualizations
+
+### **1. Revenue Contribution by Segment**
+![Revenue Share](revenue_share.png)  
+*This chart illustrates the heavy concentration of revenue within the "Whale" segment.*
+
+### **2. At-Risk Revenue: Top Products for Slipping Whales**
+![Slipping Whales Products](slipping_whale_products.png)  
+*Visualizing the top products purchased by inactive high-value customers to inform re-engagement strategies.*
