@@ -22,7 +22,7 @@ This repository contains all of my Data Analytics Projects.
 
 ### 4. Job Listings Web Scraper
 **Tech:** Python, BeautifulSoup, Requests
-* **Objective:** Built an automated scraper to extract structured job data from [Real Python Fake Jobs](https://realpython.github.io/fake-jobs/).
+* **Objective:** Built an automated scraper to extract structured job data from [Real Python Fake Jobs](https://realpython.github.io/fake-jobs/). https://roadmap.sh/projects/job-listings-scraper 
 * **Process:** Implemented DOM traversal to target specific card-content classes and exported results into a structured CSV format.
 * **Skillset:** Demonstrates proficiency in handling raw HTML and data cleaning using `.strip()` and tag filtering.
 
