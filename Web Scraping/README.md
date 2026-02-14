@@ -1,6 +1,7 @@
 # Web Scraper - roadmap.sh project
 
-This project is a Python-based webscraper on. https://roadmap.sh/projects/job-listings-scraper
+This project is a Python-based webscraper on[roadmap.sh/projects/job-listings-scraper](https://roadmap.sh/projects/job-listings-scraper).
+
 
 ## Project Overview
 The goal of this project is to practice and learn:
