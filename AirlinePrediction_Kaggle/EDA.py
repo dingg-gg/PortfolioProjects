@@ -16,4 +16,16 @@ sample = pd.read_csv(os.path.join(path, "sample_submission.csv"))
 
 train.head()
 
+train.info()
 train.describe()
+
+# Hypothesis inflight wifi service affects satisfaction
+nowifi = train[train["Inflight wifi service"] == 0]
+yeswifi = train[train["Inflight wifi service"] != 0]
+print(nowifi.shape)
+print(yeswifi.shape)
+print(nowifi["satisfaction"].value_counts())
+print(yeswifi["satisfaction"].value_counts())
+
+wifi_stats = train.groupby("Inflight wifi service")["satisfaction"].agg(["mean", "count"])
+print(wifi_stats)
