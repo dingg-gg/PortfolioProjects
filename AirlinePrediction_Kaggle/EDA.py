@@ -28,4 +28,15 @@ print(nowifi["satisfaction"].value_counts())
 print(yeswifi["satisfaction"].value_counts())
 
 wifi_stats = train.groupby("Inflight wifi service")["satisfaction"].agg(["mean", "count"])
-print(wifi_stats)
+
+no_wifi_stats = nowifi.groupby("Type of Travel").size()
+yes_wifi_stats = yeswifi.groupby("Type of Travel").size()
+print(yes_wifi_stats)
+
+personaltravel = train[train["Type of Travel"] == "Personal Travel"]
+businesstravel = train[train["Type of Travel"] == "Business travel"]
+
+print(personaltravel)
+print(businesstravel)
+travel_stats = train.groupby("Type of Travel")["satisfaction"].agg(["mean", "count"])
+print(travel_stats)
