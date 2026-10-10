@@ -40,3 +40,9 @@ print(personaltravel)
 print(businesstravel)
 travel_stats = train.groupby("Type of Travel")["satisfaction"].agg(["mean", "count"])
 print(travel_stats)
+
+nowifi_travel = nowifi.groupby("Type of Travel")["satisfaction"].agg(["mean", "count"])
+print(nowifi_travel)
+
+yeswifi_travel = yeswifi.groupby("Type of Travel")["satisfaction"].agg(["mean", "count"])
+print(yeswifi_travel)
